@@ -89,3 +89,8 @@ Sure, here's a task breakdown for creating a website like Property Finder, encom
     - Regularly update frontend dependencies and address any security vulnerabilities.
 
 By breaking down the tasks into backend and frontend development, you can effectively manage the development process and ensure all aspects of the website are covered.
+
+
+Reference:
+* https://www.propertyfinder.ae
+* https://www.bayut.com
