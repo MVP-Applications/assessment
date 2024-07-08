@@ -1,6 +1,6 @@
 # Assessment Social Media Task
 ## Description and Information
-You are tasked to create a backend system for a social media platform
+You are tasked to create a system for a social media platform
 There is no definite time limit on this task. This is not about speed, this task is more about how much you understand backend development and how you can use all the knowledge you have gathered and use them on a realistic task.
 
 All models and schemas are up for you to decide, you can use any online resources.
