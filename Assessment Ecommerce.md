@@ -1,25 +1,35 @@
-
-| **Feature**                | **Description**                                                                                                                                                      | **Sub-Modules**                                                                                 |
-|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| **User Registration**       | Customers can sign up, create profiles, and manage account settings.                                                                                                 | - Registration form, Profile management, Account settings                                       |
-| **Product Catalog**         | Users can browse and search for products, filter by categories, and view product details.                                                                            | - Category filtering, Product search, Product details                                           |
-| **Shopping Cart**           | Users can add items to their cart, view cart contents, and update quantities before checking out.                                                                    | - Cart management, Quantity updates, Wishlist                                                   |
-| **Order Placement**         | Users can place orders and select delivery or pickup options, as well as choose payment methods.                                                                     | - Order summary, Delivery options, Payment methods                                              |
-| **Payment Processing**      | Users can pay for their purchases through multiple payment options like credit cards, mobile wallets, or PayPal.                                                     | - Payment gateway integration, Transaction history, Refund processing                           |
-| **Order Tracking**          | Customers can track their orders, see delivery status, and receive notifications about shipping updates.                                                             | - Shipment tracking, Delivery notifications, Order status updates                               |
-| **Product Reviews**         | Customers can review and rate products they have purchased, helping other users make informed decisions.                                                             | - Review submission, Star rating system, Customer feedback                                      |
-| **Inventory Management**    | Sellers can manage product stock levels, monitor inventory, and receive low-stock alerts.                                                                            | - Stock tracking, Reorder alerts, Inventory reporting                                           |
-| **Offers and Discounts**    | The application can display current offers, promotions, and discount codes to customers, and sellers can manage and create promotions.                               | - Coupon code application, Offers management, Flash sale handling                               |
-| **Shipping Management**     | Sellers can manage shipping options, delivery fees, and estimated delivery times for orders.                                                                         | - Delivery fee calculation, Shipping option selection, Delivery time estimation                  |
-| **Customer Support**        | Users can contact customer support through chat, email, or phone for any queries or complaints.                                                                      | - Support chat, Email integration, FAQ section                                                  |
-| **Admin Dashboard**         | Admins can view store performance, manage users and products, and oversee orders and shipping details.                                                               | - User management, Product management, Order management                                         |
-| **Analytics and Reports**   | The application can generate analytics and reports, offering insights into product sales, customer demographics, and revenue trends.                                  | - Sales reports, Customer demographics, Revenue analytics                                       |
-| **Push Notifications**      | Customers can receive real-time notifications about new products, order updates, discounts, and promotions.                                                          | - Order notifications, Discount alerts, Product arrival updates                                 |
-| **Loyalty Program**         | Customers can earn points for purchases, referrals, or social media engagement, which they can redeem for discounts or special rewards.                               | - Points tracking, Referral rewards, Redemption management                                      |
-| **Product Recommendations** | The application can recommend products based on user preferences, past purchases, or trending items, improving user engagement and sales.                            | - Personalized recommendations, Trending products, Recently viewed                              |
-| **Seller Management**       | Sellers can register, create their stores, add and manage products, and view their store’s performance through a dedicated dashboard.                                | - Seller registration, Product listing, Seller analytics dashboard                              |
-| **Return and Refunds**      | Customers can initiate returns and request refunds within the app, while sellers can manage and process these requests.                                               | - Return request initiation, Refund tracking, Return policies                                   |
-| **Multilingual and Currency Support** | The application can support multiple languages and currencies for users in different regions, making it accessible to a global audience.                  | - Language selection, Currency conversion, Local payment options                                |
-| **Wishlist**                | Users can add products to their wishlist to save for future purchases or to share with others.                                                                       | - Wishlist creation, Share wishlist, Move to cart                                               |
-| **Security and Privacy**    | Secure user data management, including encrypted payment details, secure logins, and compliance with local data protection regulations (e.g., GDPR).                 | - Data encryption, Secure login (2FA), Privacy policy management                                |
-| **Marketing Tools**         | Sellers can create and run email campaigns, push notifications, and advertisements to promote products and increase sales.                                            | - Email campaigns, Push notifications, Ad creation                                              |
+1. Splash Screen
+Initial loading screen with the app logo and possibly a brief animation.
+2. Onboarding Screens (Optional)
+A few screens introducing the app features and guiding the user.
+3. Login and Registration Screens
+Simple login and signup forms with input fields for email, password, and options for social logins (Google, Facebook).
+Validation: Form validation (e.g., correct email format, password requirements).
+4. Home Screen
+Product List: Display featured products or categories in a grid or list view.
+Search Bar: Search for products.
+Product Categories: Display categories in a scrollable list at the top or side.
+5. Product Detail Screen
+Display product image, name, price, description, reviews, and specifications.
+Add to Cart button for adding the item to the cart.
+Quantity Selector: Allow users to select the number of items they want to purchase.
+6. Cart Screen
+Show a list of products added to the cart with options to update quantity or remove products.
+Total Price Calculation: Display total price, including taxes and delivery fees.
+Proceed to Checkout button.
+7. Checkout Screen
+Order Summary: Show product details, pricing, and total amount.
+Address Input: A form to input or select a shipping address.
+Payment Options: Select from available payment methods (credit/debit card, PayPal, etc.).
+Place Order button.
+8. Order Confirmation Screen
+A screen confirming the successful placement of an order with order details and expected delivery time.
+9. Order History Screen
+Display a list of past orders with details such as order ID, date, products ordered, and order status (shipped, delivered, etc.).
+10. User Profile Screen
+Show user details such as name, email, phone number, and saved addresses.
+Edit Profile: Option to update user information.
+Logout button.
+11. Settings Screen
+Allow users to change preferences like notifications, payment methods, and language.
+Privacy Policy and Terms & Conditions links.
