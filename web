@@ -13,8 +13,7 @@
       -Includes a navigation bar with links to "Home" and "About" pages.
       -Should be responsive.
     -Main Content:
-      -On the "Home" page, display a list of items fetched from an API (you can use any public API or mock data).
-      -On the "About" page, provide a brief description of the application and the technologies used.
+      -Implement the page similar to the given design.
     -Footer:
       -Should contain copyright information and links to privacy policy and terms of service.
 
