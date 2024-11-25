@@ -1,38 +1,39 @@
-# Project Title: Building a Blogging Platform
+# Project Title:Implement a Web Page in React and Next.js
 
 ## Project Description:
-Create a simple yet functional blogging platform where users can view, create, edit, and delete blog posts. This project will involve building a frontend using React and leveraging Next.js for server-side rendering and routing. Users will be able to:
+*Task Description*:
+1. Create a web page that fulfills the following requirements:
 
-- **View Blog Posts:** Visitors should be able to browse existing blog posts.
-- **Create New Posts:** Authenticated users can create new blog posts.
-- **Edit and Delete Posts:** Authors can edit or delete their own posts.
-- **Authentication:** Implement a basic authentication system to differentiate between regular visitors and authors.
-- **Responsive Design:** Ensure the application is responsive and works well across different devices.
+    -The web page should include a header, main content area, and footer.
+    -Use React functional components and Next.js framework.
+    -Implement client-side navigation between at least two pages.
+2. Requirements for the web page:
 
-## Technical Features:
+    -Header:
+      -Includes a navigation bar with links to "Home" and "About" pages.
+      -Should be responsive.
+    -Main Content:
+      -On the "Home" page, display a list of items fetched from an API (you can use any public API or mock data).
+      -On the "About" page, provide a brief description of the application and the technologies used.
+    -Footer:
+      -Should contain copyright information and links to privacy policy and terms of service.
 
-- **React Components:** Utilize React components to create a modular UI.
-- **Next.js Routing:** Utilize Next.js routing for navigation between pages.
-- **Server-Side Rendering (SSR):** Leverage Next.js SSR capabilities to improve SEO and initial page load performance.
-- **State Management:** Use React's built-in state management or a library like Redux to manage application state.
-- **API Integration:** Implement CRUD (Create, Read, Update, Delete) operations with a RESTful API.
-- **Form Handling:** Implement form validation and submission for creating and editing blog posts.
-- **Authentication:** Use JSON Web Tokens (JWT) for authentication, and store user information securely.
-- **Database Integration:** Store blog post data in a database (e.g., MongoDB, Firebase).
-- **Error Handling:** Implement error handling for API requests and form submissions.
-- **Testing:** Write unit tests for critical components using tools like Jest and React Testing Library.
+3. Styling:
 
-## Additional Features (Optional):
+    -Use CSS modules or a CSS-in-JS library (e.g., Styled-Components, TailwindCSS).
+    -Ensure the page is responsive and optimized for both desktop and mobile views.
+4. Bonus Features (optional):
 
-- **Comments:** Allow users to comment on blog posts.
-- **Search Functionality:** Implement a search feature to search for blog posts.
-- **Pagination:** Implement pagination for viewing multiple blog posts.
-- **Rich Text Editing:** Use libraries like Draft.js or Slate.js for a rich text editor in the blog post creation/editing form.
+    -Add a search bar on the "Home" page to filter the displayed items dynamically.
+    -Use animations for transitions between pages or for elements appearing on the screen.
 
-## Project Resources:
 
-- React documentation: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
-- Next.js documentation: [https://nextjs.org/docs/getting-started](https://nextjs.org/docs/getting-started)
-- MongoDB or Firebase documentation for database integration.
-- JWT documentation for authentication: [https://jwt.io/introduction/](https://jwt.io/introduction/)
-- RESTful API or GraphQL tutorials for backend integration.
+Submission Guidelines:
+    -Your submission should include:
+        1. A link to a public GitHub repository containing your code.
+        2. A README.md file with the following:
+              -Instructions for setting up and running the project locally.
+              -Explanation of the features implemented.
+              -Any additional libraries or tools used.
+
+
