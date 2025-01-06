@@ -1,4 +1,4 @@
-# eCommerce App - Flutter Screens Overview
+# eCommerce App - Screens Overview
 
 ## 1. Splash Screen
 - Initial loading screen with the app logo and possibly a brief animation.
