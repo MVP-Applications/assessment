@@ -45,3 +45,8 @@
 ## 11. Settings Screen
 - Allow users to change preferences like notifications, payment methods, and language.
 - **Privacy Policy** and **Terms & Conditions** links.
+
+
+
+You can check and select for template from here:
+https://elements.envato.com/graphic-templates/app+ecommerce
