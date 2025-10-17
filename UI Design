@@ -1,6 +1,60 @@
-🎯 Goal
-Implement the UI/UX design provided in the linked Figma file into the Next.js application. The goal is to create a pixel-perfect, fully responsive, and functional page/component that meets all accessibility and performance standards.
+# 🛠️ Assessment Task: Implement Custom Notification UI (Next.js & MUI)
 
-Figma Link	https://www.figma.com/design/8E9ifw8OrXaUG7Cud3XAfv/Untitled?node-id=0-1&t=rk16JOLgOHzly64A-1
+| Category | Detail |
+| :--- | :--- |
+| **Task Title** | Notification Template & Sender UI Implementation |
+| **Technology Stack** | Next.js 14 (App Router), TypeScript, MUI (Material-UI) |
+| **Design Source** | Figma Link: [Untitled Figma Design] (https://www.figma.com/design/8E9ifw8OrXaUG7Cud3XAfv/Untitled?node-id=0-1&t=rk16JOLgOHzly64A-1) |
+| **Duration** | **4-6 Hours** (Suggested Timebox) |
 
-Tech Stack	Next.js (App Router), TypeScript, Tailwind CSS (or MUI), API Integration
+---
+
+## 🎯 Objective
+
+Implement the complete user interface for the **"Send Notification"** page, which includes the **Template Creation** and **Recipient Targeting** flows, based on the provided Figma design.
+
+The primary goal is to evaluate your ability to manage complex state, create flexible and data-driven components, and integrate with a robust UI library (MUI).
+
+---
+
+## 🚀 Technical Requirements
+
+1.  **Framework:** Use **Next.js 14** with the **App Router** structure.
+2.  **Language:** Strictly use **TypeScript**. Define interfaces for all complex data (e.g., `TemplateDynamicData`, `User`, `Package`).
+3.  **UI Library:** Use **MUI (Material-UI)** for all layout, components, icons, and theming.
+4.  **State Logic:** All application state should be managed locally using React hooks (`useState`, `useReducer`, `useMemo`, `useCallback`).
+5.  **Dynamic Rendering:** Implement the dynamic display of template fields based on a simulated `templateSendgridId` selection (as seen in the provided source code).
+
+---
+
+## 📋 Task Breakdown
+
+### Part 1: Template Creation Flow (Create Tab)
+
+1.  **Layout & Tabs:** Implement the main `Tabs` component to switch between "Create" and "Send."
+2.  **Channel Selection:** Implement the `ToggleButtonGroup` for `Email`, `Push`, and `SMS`.
+3.  **Dynamic Fields:**
+    * Implement the **Sendgrid Template ID Select** component using mock data.
+    * Use a single state object (`templateContent`) to manage all dynamic field values.
+    * Implement a system to **dynamically render input fields** based on the selected Sendgrid ID (e.g., if "Welcome Mail" is selected, show `bannerTitle`, `mainTitle`, etc.). *You only need to show placeholders for the logic; full template components are not required.*
+4.  **Preview Modal:** Implement the **Modal** triggered by the "Preview" button. The modal should dynamically display the current state of the template form.
+
+### Part 2: Recipient Targeting & Sending Flow (Send Tab)
+
+1.  **Selected Template:** Display a mock selected template (based on a placeholder URL parameter).
+2.  **Targeting Filters:** Implement all five filter elements using MUI components:
+    * Select User Type
+    * Select Membership (use mock package data)
+    * Select Booking Status
+    * Select Booking Sub-Filter
+3.  **User Selection:** Implement the **MUI Autocomplete** component for searching and selecting specific users (`selectedUsers`). Use mock user data for the search results.
+4.  **Send Logic Simulation:** Implement the `handleSendNotification` function. This function should:
+    * **Construct a `filters` payload** based on the selected filter values.
+    * Simulate the logic to determine the target (Specific Users, All Matching Filters, or All).
+    * Simulate an asynchronous API call with a `Snackbar` success/error message.
+
+---
+
+## 🏗️ Submission Structure
+
+Please organize your code primarily within a feature-specific directory.
