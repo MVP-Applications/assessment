@@ -1,0 +1,6 @@
+🎯 Goal
+Implement the UI/UX design provided in the linked Figma file into the Next.js application. The goal is to create a pixel-perfect, fully responsive, and functional page/component that meets all accessibility and performance standards.
+
+Figma Link	https://www.figma.com/design/8E9ifw8OrXaUG7Cud3XAfv/Untitled?node-id=0-1&t=rk16JOLgOHzly64A-1
+
+Tech Stack	Next.js (App Router), TypeScript, Tailwind CSS (or MUI), API Integration
